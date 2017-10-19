@@ -1,0 +1,170 @@
+/* universal styling */
+body {
+  font-size: 18px;
+  line-height: 1.4rem;
+  font-family: 'Roboto', sans-serif;
+  color: #333438;
+}
+
+/* Header and nav */
+
+header {
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 32px;
+  margin-left: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: auto;
+}
+
+.logo .span1 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.logo .span2 {
+  font-size: 1.2rem;
+}
+
+nav {
+  margin-right: 8px;
+}
+
+nav span {
+  margin-right: 16px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333438;
+}
+
+/* Jumbotron with main banner */
+
+.jumbotron {
+  display: flex;
+  background-color: #c5c6c9;
+}
+
+.jumbotron .left {
+  margin: 32px 24px;
+  width: 60%;
+}
+
+.jumbotron .left img {
+  width: 100%;
+  height: auto;
+}
+
+.jumbotron .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 32px 24px 32px 0;
+  line-height: 3.6rem;
+}
+
+.jumbotron .right h1 {
+  font-size: 3.2rem;
+  font-weight: bold;
+  line-height: 3.2rem;
+  margin-bottom: 34px;
+}
+
+.jumbotron .right h3 {
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  margin-bottom: 34px;
+}
+
+.jumbotron .button {
+  width: 100%;
+  background-color: #333438;
+  text-align: center;
+}
+
+.jumbotron .button a {
+  text-decoration: none;
+  color: white;
+  margin: 8px 0 8px 0;
+  font-size: 1.4rem;
+}
+
+/* Info section */
+
+.info {
+  display: flex;
+}
+
+.info .left-container {
+  width: 60%;
+  margin: 32px 24px;
+}
+
+.info .left-container img {
+  width: 100%;
+  margin-bottom: 32px
+}
+
+.info .left-container h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.info .left-container p {
+  font-size: 1.4rem;
+  font-weight: lighter;
+  line-height: 1.2;
+  margin-bottom: 32px;
+}
+
+.info .left-container span {
+  margin-bottom: 32px;
+}
+
+.info .right-container {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid #c5c6c9;
+  padding-top: 16px;
+}
+
+.info .right-container .info-container {
+  display: flex;
+  align-items: center;
+}
+
+.info .right-container .image-container {
+  width: 35%;
+  margin: 16px;
+}
+
+.info .right-container .image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.info .right-container .info-text {
+  width: 65%;
+  line-height: 1.8;
+}
+
+.info .right-container .info-text h3 {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.info .right-container .grey {
+  background-color: #c5c6c9;
+}
