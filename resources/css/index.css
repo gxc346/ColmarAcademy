@@ -65,6 +65,14 @@ nav a {
   color: #333438;
 }
 
+nav a:hover {
+  background-color:#333438;
+  color: white;
+  border-radius: 4px;
+  padding: 8px;
+  transition: all 400ms linear 200ms;
+}
+
 /* Jumbotron with main banner */
 
 .jumbotron {
@@ -113,13 +121,17 @@ nav a {
   font-size: 1.4rem;
 }
 
+.button a:hover {
+  text-decoration: underline;
+}
+
 /* Info section */
 
 .info {
   display: flex;
 }
 
-.info .left-container {
+.left-container {
   width: 60%;
   margin: 32px 24px;
 }
@@ -133,7 +145,7 @@ nav a {
   margin-bottom: 24px;
 }
 
-.info .left-container p {
+.info .left-container .text-content p {
   font-size: 1.4rem;
   font-weight: lighter;
   line-height: 1.2;
@@ -144,7 +156,7 @@ nav a {
   margin-bottom: 32px;
 }
 
-.info .right-container {
+.right-container {
   width: 40%;
   display: flex;
   flex-direction: column;
@@ -152,27 +164,27 @@ nav a {
   padding-top: 16px;
 }
 
-.info .right-container .info-container {
+.right-container .info-container {
   display: flex;
   align-items: center;
 }
 
-.info .right-container .image-container {
+.right-container .image-container {
   width: 35%;
   margin: 16px;
 }
 
-.info .right-container .image-container img {
+.right-container .image-container img {
   width: 100%;
   height: auto;
 }
 
-.info .right-container .info-text {
+.right-container .info-text {
   width: 65%;
   line-height: 1.8;
 }
 
-.info .right-container .info-text span {
+.right-container .info-text span {
   font-weight: lighter;
 }
 
@@ -181,7 +193,7 @@ nav a {
   font-weight: lighter;
 }
 
-.info .right-container .grey {
+.grey {
   background-color: #c5c6c9;
 }
 /* Major section with major containers */
@@ -225,4 +237,53 @@ nav a {
 .major .courses span {
   font-weight: lighter;
   margin-bottom: 24px;
+}
+
+/* thesis left and right containers */
+
+.thesis h2 {
+  text-align: center;
+  padding-top: 32px;
+}
+
+.thesis .flex-container {
+  display: flex;
+}
+
+.thesis .left-container video {
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.flex-container .left-container p {
+  padding-top: 24px;
+  font-weight: lighter;
+}
+
+.thesis-right.right-container {
+  border-left: none;
+  margin-top: 16px;
+}
+
+/* Footer */
+
+footer {
+  padding: 16px 16px 24px 24px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: lighter;
+  font-size: 0.8rem;
+  border-top: 1px solid #c5c6c9;
+}
+
+.legal a {
+  padding-right: 8px;
+  text-decoration: none;
+  color: #333438;
+}
+
+.legal a:hover {
+  font-size: 1rem;
+  font-weight: bold;
+  transition: all 400ms linear;
 }
