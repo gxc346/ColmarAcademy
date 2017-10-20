@@ -6,6 +6,23 @@ body {
   color: #333438;
 }
 
+h1 {
+    font-size: 3.2rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+
 /* Header and nav */
 
 header {
@@ -74,14 +91,11 @@ nav a {
 }
 
 .jumbotron .right h1 {
-  font-size: 3.2rem;
-  font-weight: bold;
   line-height: 3.2rem;
   margin-bottom: 34px;
 }
 
 .jumbotron .right h3 {
-  font-size: 1.8rem;
   line-height: 2.5rem;
   margin-bottom: 34px;
 }
@@ -116,8 +130,6 @@ nav a {
 }
 
 .info .left-container h2 {
-  font-size: 3rem;
-  font-weight: bold;
   margin-bottom: 24px;
 }
 
@@ -160,11 +172,57 @@ nav a {
   line-height: 1.8;
 }
 
-.info .right-container .info-text h3 {
-  font-size: 1.4rem;
-  font-weight: bold;
+.info .right-container .info-text span {
+  font-weight: lighter;
+}
+
+.info .right-container .info-text a {
+  text-decoration: none;
+  font-weight: lighter;
 }
 
 .info .right-container .grey {
   background-color: #c5c6c9;
+}
+/* Major section with major containers */
+
+.majors {
+  background-color: #c5c6c9;
+}
+
+.majors h2 {
+  text-align: center;
+  padding-top: 32px;
+}
+
+.major-container {
+  padding: 32px 72px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.major {
+  margin: 16px;
+  background-color: white;
+  width: 30%;
+}
+
+.major img {
+  height: auto;
+  width: 100%;
+}
+
+.major .courses {
+  padding: 16px;
+}
+
+.major .courses h4 {
+  margin: 8px 0 8px 0;
+  font-weight: lighter;
+}
+
+.major .courses span {
+  font-weight: lighter;
+  margin-bottom: 24px;
 }
